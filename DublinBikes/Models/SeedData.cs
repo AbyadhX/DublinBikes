@@ -19,11 +19,9 @@ namespace DublinBikes.Models
                 {
                     return;   // DB has been seeded
                 }
-
                     context.DublinBike.AddRange(
                         new DublinBike
                         {
-                            Id = 1,
                             Number = 42,
                             Name = "SMITHFIELD NORTH",
                             Address = "Smithfield North",
@@ -38,7 +36,6 @@ namespace DublinBikes.Models
 
                         new DublinBike
                         {
-                            Id = 2,
                             Number = 30,
                             Name = "PARNELL SQUARE NORTH",
                             Address = "Parnell Square North",
@@ -53,7 +50,6 @@ namespace DublinBikes.Models
 
                         new DublinBike
                         {
-                            Id = 3,
                             Number = 54,
                             Name = "CLONMEL STREET",
                             Address = "Clonmel Street",
@@ -68,7 +64,6 @@ namespace DublinBikes.Models
 
                         new DublinBike
                         {
-                            Id = 4,
                             Number = 108,
                             Name = "AVONDALE ROAD",
                             Address = "Avondale Road",
